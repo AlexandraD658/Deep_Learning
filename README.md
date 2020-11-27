@@ -1,4 +1,10 @@
-# Deep Learning - DFDC 3D & 2D inc cutmix with 3D model fix
+---
+title: Talk slides template
+tags: Templates, Talk
+description: View the slide with "Slide Mode".
+---
+
+# Deep Learning - Notebook 2 
 
 <!-- Put the link to this slide here so people can follow -->
 Complete notebook: https://www.kaggle.com/vaillant/dfdc-3d-2d-inc-cutmix-with-3d-model-fix
@@ -159,13 +165,11 @@ downsample = partial(downsample_basic_block,
 
 1. **load_video function** 
 > * Extract frames from each video using cv2
-> * Select frames and resize them.
-
-![](https://i.imgur.com/1NdWdCG.png)
+> * select frames and resize them.
 
 
 2. **get_roi_for_each_face function** 
-> After detecting face by the MTCNN model, the function extract each **ROI** (Region Of Interest) from all face detected. 
+> after detecting face by the MTCNN model, the function extract each **ROI** (Region Of Interest) corresponding to all faces. 
 
 
 ![](https://i.imgur.com/WhGP0ia.jpg)
@@ -178,10 +182,14 @@ downsample = partial(downsample_basic_block,
 > * Get all ROI for unique face
 
 4. **3D CNNs functions** 
-> Build a InceptionI3D model for classification
+> * Build a **InceptionI3D** model for classification
 
 ![](https://i.imgur.com/PHHUsuK.png)
 
+
+> * **ResNet** : A residual neural network is an artificial neural network based on known constructions of the pyramidal cells of the cerebral cortex. Residual neural networks do this by using jump connections or shortcuts to jump over certain layers.
+
+![](https://i.imgur.com/oaGxFsr.png)
 
 
 
