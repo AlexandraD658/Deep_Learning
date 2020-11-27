@@ -1,4 +1,4 @@
-# Deep Learning - Notebook 2 
+# Deep Learning - DFDC 3D & 2D inc cutmix with 3D model fix
 
 <!-- Put the link to this slide here so people can follow -->
 Complete notebook: https://www.kaggle.com/vaillant/dfdc-3d-2d-inc-cutmix-with-3d-model-fix
