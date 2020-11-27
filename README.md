@@ -159,13 +159,13 @@ downsample = partial(downsample_basic_block,
 
 1. **load_video function** 
 > * Extract frames from each video using cv2
-> * select frames and resize them.
+> * Select frames and resize them.
 
 ![](https://i.imgur.com/1NdWdCG.png)
 
 
 2. **get_roi_for_each_face function** 
-> after detecting face by the MTCNN model, the function extract each **ROI** (Region Of Interest) from all face detected. 
+> After detecting face by the MTCNN model, the function extract each **ROI** (Region Of Interest) from all face detected. 
 
 
 ![](https://i.imgur.com/WhGP0ia.jpg)
