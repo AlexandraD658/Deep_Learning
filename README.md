@@ -214,4 +214,4 @@ downsample = partial(downsample_basic_block,
 
 
 ---
-> Thanks for reading! link to git -> [Notebook](https://github.com/alexD806/IASCHOOL) [color=#3b75c6] :100: 
+> Thanks for reading! :100: 
